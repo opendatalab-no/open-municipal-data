@@ -1,0 +1,8 @@
+meter_id;meter_type;unit;meter_level
+El-065806025;Fastkraft;kWh;Forbruksmåler
+El-006408599;Varme;kWh;Forbruksmåler
+Temp-Local-D01;Temperatur;°C;Annen måler
+El-014456308;Fastkraft;kWh;Forbruksmåler
+El-18815788;Elkjel;kWh;Forbruksmåler
+El-Local_D01;Fastkraft;kWh;Forbruksmåler
+El-Local_D02;Fjernvarme;kWh;Forbruksmåler
