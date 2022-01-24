@@ -14,7 +14,7 @@ Beskrivelse av hvert av datasettene med deres felter følger under.
 | Feltnavn | Beskrivelse  |
 | -------- | ------------ |
 | location | Navn på lokasjonen, f.eks. navn på skole eller barnehage |
-| municipality_code | Kommunekoden for lokasjonen. Kodene er definert i datasettet [Standard for kommuneinndeling] (https://www.ssb.no/klass/klassifikasjoner/131/koder) hos SSB. |
+| municipality_code | Kommunekoden for lokasjonen. Kodene er definert i datasettet [Standard for kommuneinndeling](https://www.ssb.no/klass/klassifikasjoner/131/koder) hos SSB. |
 | location_type | Type lokasjon. Lovlige verdier: Bygning, Rom, Annet |
 | building_type | Type bygning. Lovlige verdier: Skole, Barnehage, Helsebygg, Administrasjonsbygg, Idrettsbygg, Kirkelig bygg, Beredskapsbygg, Bydels- og fritidsbygg, Kulturbygg, Varmesentral, Annet bygg |
 | address | Adresse til lokasjonen / bygget |
