@@ -4,7 +4,7 @@ location;municipality_code;meter_id;meter_name
 Åskollen bo og servicesenter;3005;Temp-Local-D01;Utetemperatur
 Gulskogen skole;3005;El-014456308;El-måler til lys, ventilsjon, PC osv
 Gulskogen skole;3005;El-18815788;El-måler til el-kjele
-Gulskogen skole;3005;Temp-Local-D01;Utetemperatur
+Gulskogen skole;3005;Temp-Local-D02;Utetemperatur
 Parktunet barnehage;3005;El-Local_D01;El-måler til lys, ventilsjon, PC osv
 Parktunet barnehage;3005;El-Local_D02;Kalorimengdemåler for fjernvarme
-Parktunet barnehage;3005;Temp-Local-D01;Utetemperatur
+Parktunet barnehage;3005;Temp-Local-D03;Utetemperatur
