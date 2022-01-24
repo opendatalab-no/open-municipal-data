@@ -21,7 +21,7 @@ Beskrivelse av hvert av datasettene med deres felter følger under.
 | latitude | Breddegrad for lokasjonen i desimalgrader |
 | longitude | Lengdegrad for lokasjonen i desimalgrader |
  
-## MeasurementPoint:
+## MeasurementPoint
 | Feltnavn | Beskrivelse  |
 | -------- | ------------ |
 | meter_id | Unik id for målepunktet. Eksempler: EID_972418013_00290, Eklima_82290_TAM |
@@ -29,7 +29,7 @@ Beskrivelse av hvert av datasettene med deres felter følger under.
 | unit | Enhet som måleren måler, f.eks. kWh, °C |
 | meter_level | Vanligvis en av følgende to verdier: Forbruksmåler, Annen måler |
  
-## LocationMeasurementPoint:
+## LocationMeasurementPoint
 | Feltnavn | Beskrivelse  |
 | -------- | ------------ |
 | location | Navn på lokasjonen (se Location) |
