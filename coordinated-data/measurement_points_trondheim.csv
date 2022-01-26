@@ -1,0 +1,10 @@
+meter_id;meter_type;unit;meter_level
+El_Local_T01;Fastkraft;kWh;Forbruksmåler
+Eklima_68860_TAM;Temperatur;°C;Annen måler
+Eklima_68860_TAN;Temperatur;°C;Annen måler
+El_Local_T02;Fjernvarme;kWh;Forbruksmåler
+El_Local_T03;Fastkraft;kWh;Annen måler
+El_Local_T04;Fastkraft;kWh;Forbruksmåler
+El_Local_T05;Fjernvarme;kWh;Forbruksmåler
+El_Local_T06;Fastkraft;kWh;Forbruksmåler
+El_Local_T07;Vann;m3;Annen måler

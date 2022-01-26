@@ -1,0 +1,4 @@
+location;municipality_code;location_type;building_type;address;latitude;longitude
+N.N. barnehage;5001;Bygning;Barnehage;NA;63.42519029762665;10.410432728286208
+N.N. skole;5001;Bygning;Skole;NA;63.42148668960351;10.396670654948329
+N.N. senter;5001;Bygning;Helsebygg;NA;63.43172968495979;10.396202842852208
