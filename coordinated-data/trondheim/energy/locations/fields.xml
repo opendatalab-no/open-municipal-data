@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<datasetFields>
+  <fields>
+    <field>
+      <name>Location</name>
+      <shortName>location</shortName>
+      <groupable>false</groupable>
+      <searchable>true</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Navn på lokasjonen, f.eks. navn på skole eller barnehage</content>
+    </field>
+    <field>
+      <name>Municipality code</name>
+      <shortName>municipality_code</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Kommunekoden for lokasjonen. Kodene er definert i datasettet Standard for kommuneinndeling hos SSB. https://www.ssb.no/klass/klassifikasjoner/131/koder</content>
+    </field>
+    <field>
+      <name>Location type</name>
+      <shortName>location_type</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Type lokasjon. Lovlige verdier: Bygning, Rom, Annet</content>
+    </field>
+    <field>
+      <name>Building type</name>
+      <shortName>building_type</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Type bygning. Lovlige verdier: Skole, Barnehage, Helsebygg, Administrasjonsbygg, Idrettsbygg, Kirkelig bygg, Beredskapsbygg, Bydels- og fritidsbygg, Kulturbygg, Varmesentral, Annet bygg</content>
+    </field>
+    <field>
+      <name>Address</name>
+      <shortName>address</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Adresse til lokasjonen / bygget</content>
+    </field>
+    <field>
+      <name>Latitude</name>
+      <shortName>latitude</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Breddegrad for lokasjonen i desimalgrader</content>
+    </field>
+    <field>
+      <name>Longitude</name>
+      <shortName>longitude</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Lengdegrad for lokasjonen i desimalgrader</content>
+    </field>
+  </fields>
+</datasetFields>

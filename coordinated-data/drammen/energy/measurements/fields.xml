@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<datasetFields>
+  <fields>
+    <field>
+      <name>Timestamp</name>
+      <shortName>timestamp</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Tidsstempel med dato og klokkeslett, f.eks. 2010-01-04 06:00:00</content>
+    </field>
+    <field>
+      <name>Meter id</name>
+      <shortName>meter_id</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Unik id for målepunkt (se MeasurementPoint)</content>
+    </field>
+    <field>
+      <name>Value</name>
+      <shortName>value</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Måleravlesning. Vanligvis flyttall med komma som separator, f.eks. 4,20</content>
+    </field>
+  </fields>
+</datasetFields>

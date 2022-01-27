@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<datasetFields>
+  <fields>
+    <field>
+      <name>Meter id</name>
+      <shortName>meter_id</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Unik id for målepunktet. Eksempler: EID_972418013_00290, Eklima_82290_TAM</content>
+    </field>
+    <field>
+      <name>Meter type</name>
+      <shortName>meter_type</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Beskriver hva slags type målepunkt det er. Eksempler er Fastkraft, Temperatur, Graddager, Varmepumpe</content>
+    </field>
+    <field>
+      <name>Unit</name>
+      <shortName>unit</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Enhet som måleren måler, f.eks. kWh, °C</content>
+    </field>
+    <field>
+      <name>Meter level</name>
+      <shortName>meter_level</shortName>
+      <groupable>true</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Vanligvis en av følgende to verdier: Forbruksmåler, Annen måler</content>
+    </field>
+  </fields>
+</datasetFields>
