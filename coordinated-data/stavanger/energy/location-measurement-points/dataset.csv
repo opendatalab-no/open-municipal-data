@@ -1,0 +1,21 @@
+location;municipality_code;meter_id;meter_name
+N.N. skole;1103;Fastkraft;G02_0038_M1E
+N.N. skole;1103;Varmepumpe 1 EL tilført;G02_0038_SM_M16E
+N.N. skole;1103;Varmepumpe 1 avgitt energi;G02_0038_SM_M27V
+N.N. skole;1103;Varmepumpe 2 EL tilført;G02_0038_SM_M17E
+N.N. skole;1103;Varmepumpe 2 avgitt energi;G02_0038_SM_M28V
+N.N. skole;1103;Varmevannsbereder EL;G02_0038_SM_M18E
+N.N. skole;1103;Elektrokjel spisslast;G02_0038_SM_M19E
+N.N. skole;1103;EL vifter;G02_0038_SM_M1E
+N.N. skole;1103;Varme ventilasjon;G02_0038_SM_M22V
+N.N. skole;1103;EL vifter;G02_0038_SM_M2E
+N.N. skole;1103;Varme ventilasjon;G02_0038_SM_M23V
+N.N. skole;1103;EL vifter;G02_0038_SM_M3E
+N.N. skole;1103;Varme ventilasjon;G02_0038_SM_M24V
+N.N. skole;1103;EL vifter;G02_0038_SM_M4E
+N.N. skole;1103;Varme ventilasjon;G02_0038_SM_M25V
+N.N. skole;1103;EL vifter;G02_0038_SM_M5E
+N.N. skole;1103;Varme ventilasjon;G02_0038_SM_M26V
+N.N. skole;1103;Varme radiator;G02_0038_SM_M29V
+N.N. skole;1103;Varme gulv;G02_0038_SM_M30V
+N.N. skole;1103;Temperatur;MET_44640_TA

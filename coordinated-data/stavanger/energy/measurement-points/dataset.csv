@@ -1,0 +1,21 @@
+meter_id;meter_type;unit;meter_level
+G02_0038_M1E;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M16E;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M27V;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M17E;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M28V;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M18E;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M19E;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M1E;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M22V;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M2E;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M23V;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M3E;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M24V;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M4E;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M25V;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M5E;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M26V;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M29V;Fastkraft;kWh;Forbruksmåler
+G02_0038_SM_M30V;Fastkraft;kWh;Forbruksmåler
+MET_44640_TA;Temperatur;°C;Annen måler
