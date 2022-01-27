@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<datasetFields>
+  <fields>
+    <field>
+      <name>Location</name>
+      <shortName>location</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Navn på lokasjonen (se Location)</content>
+    </field>
+    <field>
+      <name>Municipality code</name>
+      <shortName>municipality_code</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Kommunekoden for lokasjonen</content>
+    </field>
+    <field>
+      <name>Meter id</name>
+      <shortName>meter_id</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Unik id for målepunktet (se MeasurementPoint)</content>
+    </field>
+    <field>
+      <name>Meter name</name>
+      <shortName>meter_name</shortName>
+      <groupable>false</groupable>
+      <searchable>false</searchable>
+      <indexPrimaryKey>false</indexPrimaryKey>
+      <content>Lokalt navn for målepunktet (unikt bare innenfor lokasjonen). Eksempler: Temp middel, Fastkraft, Fastkraft 67756</content>
+    </field>
+  </fields>
+</datasetFields>
