@@ -62,10 +62,26 @@ Det er fire typer datasett som hører sammen.
 - LocationMeasurementPoint: Knytter et målepunkt til en lokasjon og gir et lokalt navn for målepunktet. Enkelte målepunkt brukes av mange lokasjoner, f.eks. temperaturmålere fra offisielle målestasjoner fra meteorilogisk institutt (met.no)
 - Measurements: Tidsstemplede målinger fra målepunkt
   
+
 Beskrivelse av hvert av datasettene med deres felter følger under.
 For nærmere beskrivelse av hvert datasett, se dokumentasjon på GitHub:
+
 https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/README.md
 
+        """,
+        "en" : """
+The datasets in this directory are coordinated based on data sources from the municipalities.
+
+There are four types of data sets that belong together.
+
+Location: Describes a location (usually a building) that has energy data.
+MeasurementPoint: Describes a measurement point with a unique id, what it is and the unit measurements are performed in.
+LocationMeasurementPoint: Connects a measurement point with a location and assigns a local namee for the measurement point. Some measurement points are used by multiple locations, e.g. for temperature measurements from official measurement stations from met.no.
+Measurements: Timestamped measurements from measurement points.
+
+Follow this link for a description of each dataset with their attributes:
+
+https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/README_en.md        
         """
         }
     dataset.access_rights = "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
