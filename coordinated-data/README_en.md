@@ -1,7 +1,7 @@
 # Coordinated energy datasets for municipalities
 [Norwegian](README_no.md)
 
-The datasets in this directory are coordinated based on data sources from the municipalities.
+The datasets in this directory are coordinated based on data sources from the municipalities. The datasets are published at [data.norge.no](https://data.norge.no/datasets?keywords=energim%C3%A5ling)
 
 There are four types of data sets that belong together.
 - Location: Describes a location (usually a building) that has energy data.
@@ -26,7 +26,7 @@ A description of each dataset with their attributes are given below.
 | Attribute | Description  |
 | --------- | ------------ |
 | meter_id | Unique id for the measurement point. Examples: EID_972418013_00290, Eklima_82290_TAM |
-| meter_type | Description of what type of measurement point this is. Examples are Fastkraft, Temperatur, Graddager, Varmepumpe |
+| meter_type | Description of what type of measurement point this is. Examples are Fastkraft, Temperatur (Temperature), Graddager, Varmepumpe (Heat pump) |
 | unit | The unit for the measurement, e.g. kWh, °C |
 | meter_level | Usually one of the following values: Forbruksmåler (Consumption meter), Annen måler (Other meter) |
  

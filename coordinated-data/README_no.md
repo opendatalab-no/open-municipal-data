@@ -1,7 +1,7 @@
 # Samordnede energidatasett for kommunene
 [English](README_en.md)
 
-Datasettene i denne katalogen er samordnet basert på kiledata fra kommunene.
+Datasettene i denne katalogen er samordnet basert på kiledata fra kommunene. Datasettene er publisert i [felles datakatlog](https://data.norge.no/datasets?keywords=energim%C3%A5ling).
 
 Det er fire typer datasett som hører sammen.
 - Location: Beskriver en lokasjon (vanligvis et bygg) som det finnes energidata for.
