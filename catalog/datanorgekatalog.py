@@ -111,6 +111,7 @@ Beskrivelse av hvert av datasettene med deres felter følger under.
         "http://publications.europa.eu/resource/authority/data-theme/GOVE"
         ]
     dataset.keyword = {"nb": "energimåling"}
+    dataset.landing_page = ["https://github.com/opendatalab-no/open-municipal-data"]
 
     # Create distributions
     for (datasetId, datasetName) in datahotelDatasets:

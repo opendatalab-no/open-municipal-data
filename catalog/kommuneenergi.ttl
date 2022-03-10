@@ -101,6 +101,7 @@ Beskrivelse av hvert av datasettene med deres felter følger under.
         <https://hotell.difi.no/?dataset=bodo/energy/measurement-points>,
         <https://hotell.difi.no/?dataset=bodo/energy/measurements> ;
     dcat:keyword "energimåling"@nb ;
+    dcat:landingPage <https://github.com/opendatalab-no/open-municipal-data> ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENER>,
         <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
 
@@ -170,6 +171,7 @@ Beskrivelse av hvert av datasettene med deres felter følger under.
         <https://hotell.difi.no/?dataset=drammen/energy/measurement-points>,
         <https://hotell.difi.no/?dataset=drammen/energy/measurements> ;
     dcat:keyword "energimåling"@nb ;
+    dcat:landingPage <https://github.com/opendatalab-no/open-municipal-data> ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENER>,
         <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
 
@@ -239,6 +241,7 @@ Beskrivelse av hvert av datasettene med deres felter følger under.
         <https://hotell.difi.no/?dataset=stavanger/energy/measurement-points>,
         <https://hotell.difi.no/?dataset=stavanger/energy/measurements> ;
     dcat:keyword "energimåling"@nb ;
+    dcat:landingPage <https://github.com/opendatalab-no/open-municipal-data> ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENER>,
         <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
 
@@ -308,6 +311,7 @@ Beskrivelse av hvert av datasettene med deres felter følger under.
         <https://hotell.difi.no/?dataset=trondheim/energy/measurement-points>,
         <https://hotell.difi.no/?dataset=trondheim/energy/measurements> ;
     dcat:keyword "energimåling"@nb ;
+    dcat:landingPage <https://github.com/opendatalab-no/open-municipal-data> ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENER>,
         <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
 
