@@ -1,0 +1,525 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://www.w3.org/2006/vcard/ns#> .
+
+<https://example.com/kommunedata/energi> a dcat:Catalog ;
+    dct:description "Datasets from municipalities in the same format. From the SamÅpne-project. Launched for Open data challenge 2022."@en,
+        "Datasett frå kommunar, på samme format. Frå SamÅpne-prosjektet. Lansert til Open data challenge 2022."@nb ;
+    dct:identifier "https://example.com/kommunedata/energi" ;
+    dct:publisher <https://data.brreg.no/enhetsregisteret/enhet/991825827> ;
+    dct:title "Energy usage datasets from municipality buildings"@en,
+        "Energimålingar i kommunale bygg"@nb ;
+    dcat:dataset <https://example.com/kommunedata/energi/bodo>,
+        <https://example.com/kommunedata/energi/drammen>,
+        <https://example.com/kommunedata/energi/stavanger>,
+        <https://example.com/kommunedata/energi/trondheim> .
+
+<https://data.brreg.no/enhetsregisteret/api/enheter/921234554> a foaf:Agent ;
+    foaf:name "Drammen municipality"@en,
+        "Drammen kommune"@nb .
+
+<https://data.brreg.no/enhetsregisteret/api/enheter/942110464> a foaf:Agent ;
+    foaf:name "Trondheim municipality"@en,
+        "Trondheim kommune"@nb .
+
+<https://data.brreg.no/enhetsregisteret/api/enheter/964965226> a foaf:Agent ;
+    foaf:name "Stavanger municipality"@en,
+        "Stavanger kommune"@nb .
+
+<https://data.brreg.no/enhetsregisteret/api/enheter/972418013> a foaf:Agent ;
+    foaf:name "Bodø municipality"@en,
+        "Bodø kommune"@nb .
+
+<https://data.brreg.no/enhetsregisteret/enhet/991825827> a foaf:Agent ;
+    foaf:name "The Norwegian Digitalisation Agency"@en,
+        "Digitaliseringsdirektoratet"@nb .
+
+<https://example.com/kommunedata/energi/bodo> a dcat:Dataset ;
+    dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dct:description """
+Datasettene i denne katalogen er samordnet basert på kiledata fra kommunene.
+
+Det er fire typer datasett som hører sammen.
+- Location: Beskriver en lokasjon (vanligvis et bygg) som det finnes energidata for.
+- MeasurementPoint: Beskriver et målepunkt med en unik id, hva målepunktet er og enhet det måles i.
+- LocationMeasurementPoint: Knytter et målepunkt til en lokasjon og gir et lokalt navn for målepunktet. Enkelte målepunkt brukes av mange lokasjoner, f.eks. temperaturmålere fra offisielle målestasjoner fra meteorilogisk institutt (met.no)
+- Measurements: Tidsstemplede målinger fra målepunkt
+  
+Beskrivelse av hvert av datasettene med deres felter følger under.
+
+## Location
+| Feltnavn | Beskrivelse  |
+| -------- | ------------ |
+| location | Navn på lokasjonen, f.eks. navn på skole eller barnehage |
+| municipality_code | Kommunekoden for lokasjonen. Kodene er definert i datasettet [Standard for kommuneinndeling](https://www.ssb.no/klass/klassifikasjoner/131/koder) hos SSB. |
+| location_type | Type lokasjon. Lovlige verdier: Bygning, Rom, Annet |
+| building_type | Type bygning. Lovlige verdier: Skole, Barnehage, Helsebygg, Administrasjonsbygg, Idrettsbygg, Kirkelig bygg, Beredskapsbygg, Bydels- og fritidsbygg, Kulturbygg, Varmesentral, Annet bygg |
+| address | Adresse til lokasjonen / bygget |
+| latitude | Breddegrad for lokasjonen i desimalgrader |
+| longitude | Lengdegrad for lokasjonen i desimalgrader |
+<br>  
+<br>  
+
+## MeasurementPoint
+| Feltnavn | Beskrivelse  |
+| -------- | ------------ |
+| meter_id | Unik id for målepunktet. Eksempler: EID_972418013_00290, Eklima_82290_TAM |
+| meter_type | Beskriver hva slags type målepunkt det er. Eksempler er Fastkraft, Temperatur, Graddager, Varmepumpe |
+| unit | Enhet som måleren måler, f.eks. kWh, °C |
+| meter_level | Vanligvis en av følgende to verdier: Forbruksmåler, Annen måler |
+  
+  
+
+## LocationMeasurementPoint
+| Feltnavn | Beskrivelse  |
+| -------- | ------------ |
+| location | Navn på lokasjonen (se Location) |
+| municipality_code | Kommunekoden for lokasjonen |
+| meter_id | Unik id for målepunktet (se MeasurementPoint) |
+| meter_name | Lokalt navn for målepunktet (unikt bare innenfor lokasjonen). Eksempler: Temp middel, Fastkraft, Fastkraft 67756 |
+  
+  
+## Measurements
+| Feltnavn | Beskrivelse  |
+| -------- | ------------ |
+| timestamp | Tidsstempel med dato og klokkeslett, f.eks. 2010-01-04 06:00:00 |
+| meter_id | Unik id for målepunkt (se MeasurementPoint) |
+| value | Måleravlesning. Vanligvis flyttall med komma som separator, f.eks. 4,20 |
+
+        """@nb ;
+    dct:identifier "https://example.com/kommunedata/energi/bodo" ;
+    dct:publisher <https://data.brreg.no/enhetsregisteret/api/enheter/972418013> ;
+    dct:title "Energy usage in municipal buildings"@en,
+        "Energimålinger kommunale bygg"@nb ;
+    dcat:contactPoint [ a ns1:Organization ;
+            ns1:hasEmail <mailto:erlend.stav@sintef.no> ;
+            ns1:hasOrganizationName "Erlend Stav"@nb ;
+            ns1:hasURL <https://www.sintef.no/alle-ansatte/ansatt/erlend.stav/> ] ;
+    dcat:distribution <https://hotell.difi.no/?dataset=bodo/energy/location-measurement-points>,
+        <https://hotell.difi.no/?dataset=bodo/energy/locations>,
+        <https://hotell.difi.no/?dataset=bodo/energy/measurement-points>,
+        <https://hotell.difi.no/?dataset=bodo/energy/measurements> ;
+    dcat:keyword "energimåling"@nb ;
+    dcat:landingPage <https://github.com/opendatalab-no/open-municipal-data> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENER>,
+        <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
+
+<https://example.com/kommunedata/energi/drammen> a dcat:Dataset ;
+    dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dct:description """
+Datasettene i denne katalogen er samordnet basert på kiledata fra kommunene.
+
+Det er fire typer datasett som hører sammen.
+- Location: Beskriver en lokasjon (vanligvis et bygg) som det finnes energidata for.
+- MeasurementPoint: Beskriver et målepunkt med en unik id, hva målepunktet er og enhet det måles i.
+- LocationMeasurementPoint: Knytter et målepunkt til en lokasjon og gir et lokalt navn for målepunktet. Enkelte målepunkt brukes av mange lokasjoner, f.eks. temperaturmålere fra offisielle målestasjoner fra meteorilogisk institutt (met.no)
+- Measurements: Tidsstemplede målinger fra målepunkt
+  
+Beskrivelse av hvert av datasettene med deres felter følger under.
+
+## Location
+| Feltnavn | Beskrivelse  |
+| -------- | ------------ |
+| location | Navn på lokasjonen, f.eks. navn på skole eller barnehage |
+| municipality_code | Kommunekoden for lokasjonen. Kodene er definert i datasettet [Standard for kommuneinndeling](https://www.ssb.no/klass/klassifikasjoner/131/koder) hos SSB. |
+| location_type | Type lokasjon. Lovlige verdier: Bygning, Rom, Annet |
+| building_type | Type bygning. Lovlige verdier: Skole, Barnehage, Helsebygg, Administrasjonsbygg, Idrettsbygg, Kirkelig bygg, Beredskapsbygg, Bydels- og fritidsbygg, Kulturbygg, Varmesentral, Annet bygg |
+| address | Adresse til lokasjonen / bygget |
+| latitude | Breddegrad for lokasjonen i desimalgrader |
+| longitude | Lengdegrad for lokasjonen i desimalgrader |
+<br>  
+<br>  
+
+## MeasurementPoint
+| Feltnavn | Beskrivelse  |
+| -------- | ------------ |
+| meter_id | Unik id for målepunktet. Eksempler: EID_972418013_00290, Eklima_82290_TAM |
+| meter_type | Beskriver hva slags type målepunkt det er. Eksempler er Fastkraft, Temperatur, Graddager, Varmepumpe |
+| unit | Enhet som måleren måler, f.eks. kWh, °C |
+| meter_level | Vanligvis en av følgende to verdier: Forbruksmåler, Annen måler |
+  
+  
+
+## LocationMeasurementPoint
+| Feltnavn | Beskrivelse  |
+| -------- | ------------ |
+| location | Navn på lokasjonen (se Location) |
+| municipality_code | Kommunekoden for lokasjonen |
+| meter_id | Unik id for målepunktet (se MeasurementPoint) |
+| meter_name | Lokalt navn for målepunktet (unikt bare innenfor lokasjonen). Eksempler: Temp middel, Fastkraft, Fastkraft 67756 |
+  
+  
+## Measurements
+| Feltnavn | Beskrivelse  |
+| -------- | ------------ |
+| timestamp | Tidsstempel med dato og klokkeslett, f.eks. 2010-01-04 06:00:00 |
+| meter_id | Unik id for målepunkt (se MeasurementPoint) |
+| value | Måleravlesning. Vanligvis flyttall med komma som separator, f.eks. 4,20 |
+
+        """@nb ;
+    dct:identifier "https://example.com/kommunedata/energi/drammen" ;
+    dct:publisher <https://data.brreg.no/enhetsregisteret/api/enheter/921234554> ;
+    dct:title "Energy usage in municipal buildings"@en,
+        "Energimålinger kommunale bygg"@nb ;
+    dcat:contactPoint [ a ns1:Organization ;
+            ns1:hasEmail <mailto:erlend.stav@sintef.no> ;
+            ns1:hasOrganizationName "Erlend Stav"@nb ;
+            ns1:hasURL <https://www.sintef.no/alle-ansatte/ansatt/erlend.stav/> ] ;
+    dcat:distribution <https://hotell.difi.no/?dataset=drammen/energy/location-measurement-points>,
+        <https://hotell.difi.no/?dataset=drammen/energy/locations>,
+        <https://hotell.difi.no/?dataset=drammen/energy/measurement-points>,
+        <https://hotell.difi.no/?dataset=drammen/energy/measurements> ;
+    dcat:keyword "energimåling"@nb ;
+    dcat:landingPage <https://github.com/opendatalab-no/open-municipal-data> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENER>,
+        <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
+
+<https://example.com/kommunedata/energi/stavanger> a dcat:Dataset ;
+    dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dct:description """
+Datasettene i denne katalogen er samordnet basert på kiledata fra kommunene.
+
+Det er fire typer datasett som hører sammen.
+- Location: Beskriver en lokasjon (vanligvis et bygg) som det finnes energidata for.
+- MeasurementPoint: Beskriver et målepunkt med en unik id, hva målepunktet er og enhet det måles i.
+- LocationMeasurementPoint: Knytter et målepunkt til en lokasjon og gir et lokalt navn for målepunktet. Enkelte målepunkt brukes av mange lokasjoner, f.eks. temperaturmålere fra offisielle målestasjoner fra meteorilogisk institutt (met.no)
+- Measurements: Tidsstemplede målinger fra målepunkt
+  
+Beskrivelse av hvert av datasettene med deres felter følger under.
+
+## Location
+| Feltnavn | Beskrivelse  |
+| -------- | ------------ |
+| location | Navn på lokasjonen, f.eks. navn på skole eller barnehage |
+| municipality_code | Kommunekoden for lokasjonen. Kodene er definert i datasettet [Standard for kommuneinndeling](https://www.ssb.no/klass/klassifikasjoner/131/koder) hos SSB. |
+| location_type | Type lokasjon. Lovlige verdier: Bygning, Rom, Annet |
+| building_type | Type bygning. Lovlige verdier: Skole, Barnehage, Helsebygg, Administrasjonsbygg, Idrettsbygg, Kirkelig bygg, Beredskapsbygg, Bydels- og fritidsbygg, Kulturbygg, Varmesentral, Annet bygg |
+| address | Adresse til lokasjonen / bygget |
+| latitude | Breddegrad for lokasjonen i desimalgrader |
+| longitude | Lengdegrad for lokasjonen i desimalgrader |
+<br>  
+<br>  
+
+## MeasurementPoint
+| Feltnavn | Beskrivelse  |
+| -------- | ------------ |
+| meter_id | Unik id for målepunktet. Eksempler: EID_972418013_00290, Eklima_82290_TAM |
+| meter_type | Beskriver hva slags type målepunkt det er. Eksempler er Fastkraft, Temperatur, Graddager, Varmepumpe |
+| unit | Enhet som måleren måler, f.eks. kWh, °C |
+| meter_level | Vanligvis en av følgende to verdier: Forbruksmåler, Annen måler |
+  
+  
+
+## LocationMeasurementPoint
+| Feltnavn | Beskrivelse  |
+| -------- | ------------ |
+| location | Navn på lokasjonen (se Location) |
+| municipality_code | Kommunekoden for lokasjonen |
+| meter_id | Unik id for målepunktet (se MeasurementPoint) |
+| meter_name | Lokalt navn for målepunktet (unikt bare innenfor lokasjonen). Eksempler: Temp middel, Fastkraft, Fastkraft 67756 |
+  
+  
+## Measurements
+| Feltnavn | Beskrivelse  |
+| -------- | ------------ |
+| timestamp | Tidsstempel med dato og klokkeslett, f.eks. 2010-01-04 06:00:00 |
+| meter_id | Unik id for målepunkt (se MeasurementPoint) |
+| value | Måleravlesning. Vanligvis flyttall med komma som separator, f.eks. 4,20 |
+
+        """@nb ;
+    dct:identifier "https://example.com/kommunedata/energi/stavanger" ;
+    dct:publisher <https://data.brreg.no/enhetsregisteret/api/enheter/964965226> ;
+    dct:title "Energy usage in municipal buildings"@en,
+        "Energimålinger kommunale bygg"@nb ;
+    dcat:contactPoint [ a ns1:Organization ;
+            ns1:hasEmail <mailto:erlend.stav@sintef.no> ;
+            ns1:hasOrganizationName "Erlend Stav"@nb ;
+            ns1:hasURL <https://www.sintef.no/alle-ansatte/ansatt/erlend.stav/> ] ;
+    dcat:distribution <https://hotell.difi.no/?dataset=stavanger/energy/location-measurement-points>,
+        <https://hotell.difi.no/?dataset=stavanger/energy/locations>,
+        <https://hotell.difi.no/?dataset=stavanger/energy/measurement-points>,
+        <https://hotell.difi.no/?dataset=stavanger/energy/measurements> ;
+    dcat:keyword "energimåling"@nb ;
+    dcat:landingPage <https://github.com/opendatalab-no/open-municipal-data> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENER>,
+        <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
+
+<https://example.com/kommunedata/energi/trondheim> a dcat:Dataset ;
+    dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+    dct:description """
+Datasettene i denne katalogen er samordnet basert på kiledata fra kommunene.
+
+Det er fire typer datasett som hører sammen.
+- Location: Beskriver en lokasjon (vanligvis et bygg) som det finnes energidata for.
+- MeasurementPoint: Beskriver et målepunkt med en unik id, hva målepunktet er og enhet det måles i.
+- LocationMeasurementPoint: Knytter et målepunkt til en lokasjon og gir et lokalt navn for målepunktet. Enkelte målepunkt brukes av mange lokasjoner, f.eks. temperaturmålere fra offisielle målestasjoner fra meteorilogisk institutt (met.no)
+- Measurements: Tidsstemplede målinger fra målepunkt
+  
+Beskrivelse av hvert av datasettene med deres felter følger under.
+
+## Location
+| Feltnavn | Beskrivelse  |
+| -------- | ------------ |
+| location | Navn på lokasjonen, f.eks. navn på skole eller barnehage |
+| municipality_code | Kommunekoden for lokasjonen. Kodene er definert i datasettet [Standard for kommuneinndeling](https://www.ssb.no/klass/klassifikasjoner/131/koder) hos SSB. |
+| location_type | Type lokasjon. Lovlige verdier: Bygning, Rom, Annet |
+| building_type | Type bygning. Lovlige verdier: Skole, Barnehage, Helsebygg, Administrasjonsbygg, Idrettsbygg, Kirkelig bygg, Beredskapsbygg, Bydels- og fritidsbygg, Kulturbygg, Varmesentral, Annet bygg |
+| address | Adresse til lokasjonen / bygget |
+| latitude | Breddegrad for lokasjonen i desimalgrader |
+| longitude | Lengdegrad for lokasjonen i desimalgrader |
+<br>  
+<br>  
+
+## MeasurementPoint
+| Feltnavn | Beskrivelse  |
+| -------- | ------------ |
+| meter_id | Unik id for målepunktet. Eksempler: EID_972418013_00290, Eklima_82290_TAM |
+| meter_type | Beskriver hva slags type målepunkt det er. Eksempler er Fastkraft, Temperatur, Graddager, Varmepumpe |
+| unit | Enhet som måleren måler, f.eks. kWh, °C |
+| meter_level | Vanligvis en av følgende to verdier: Forbruksmåler, Annen måler |
+  
+  
+
+## LocationMeasurementPoint
+| Feltnavn | Beskrivelse  |
+| -------- | ------------ |
+| location | Navn på lokasjonen (se Location) |
+| municipality_code | Kommunekoden for lokasjonen |
+| meter_id | Unik id for målepunktet (se MeasurementPoint) |
+| meter_name | Lokalt navn for målepunktet (unikt bare innenfor lokasjonen). Eksempler: Temp middel, Fastkraft, Fastkraft 67756 |
+  
+  
+## Measurements
+| Feltnavn | Beskrivelse  |
+| -------- | ------------ |
+| timestamp | Tidsstempel med dato og klokkeslett, f.eks. 2010-01-04 06:00:00 |
+| meter_id | Unik id for målepunkt (se MeasurementPoint) |
+| value | Måleravlesning. Vanligvis flyttall med komma som separator, f.eks. 4,20 |
+
+        """@nb ;
+    dct:identifier "https://example.com/kommunedata/energi/trondheim" ;
+    dct:publisher <https://data.brreg.no/enhetsregisteret/api/enheter/942110464> ;
+    dct:title "Energy usage in municipal buildings"@en,
+        "Energimålinger kommunale bygg"@nb ;
+    dcat:contactPoint [ a ns1:Organization ;
+            ns1:hasEmail <mailto:erlend.stav@sintef.no> ;
+            ns1:hasOrganizationName "Erlend Stav"@nb ;
+            ns1:hasURL <https://www.sintef.no/alle-ansatte/ansatt/erlend.stav/> ] ;
+    dcat:distribution <https://hotell.difi.no/?dataset=trondheim/energy/location-measurement-points>,
+        <https://hotell.difi.no/?dataset=trondheim/energy/locations>,
+        <https://hotell.difi.no/?dataset=trondheim/energy/measurement-points>,
+        <https://hotell.difi.no/?dataset=trondheim/energy/measurements> ;
+    dcat:keyword "energimåling"@nb ;
+    dcat:landingPage <https://github.com/opendatalab-no/open-municipal-data> ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENER>,
+        <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
+
+<https://hotell.difi.no/?dataset=bodo/energy/location-measurement-points> a dcat:Distribution ;
+    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
+        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
+    dct:format <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/application/xml>,
+        <https://www.iana.org/assignments/media-types/application/yaml>,
+        <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod/no/2.0> ;
+    dct:title "Location measurement points"@en,
+        "Location measurement points"@nb ;
+    dcat:accessURL <https://hotell.difi.no/?dataset=bodo/energy/location-measurement-points> ;
+    dcat:downloadURL <https://hotell.difi.no/download/bodo/energy/location-measurement-points> .
+
+<https://hotell.difi.no/?dataset=bodo/energy/locations> a dcat:Distribution ;
+    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
+        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
+    dct:format <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/application/xml>,
+        <https://www.iana.org/assignments/media-types/application/yaml>,
+        <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod/no/2.0> ;
+    dct:title "Locations"@en,
+        "Locations"@nb ;
+    dcat:accessURL <https://hotell.difi.no/?dataset=bodo/energy/locations> ;
+    dcat:downloadURL <https://hotell.difi.no/download/bodo/energy/locations> .
+
+<https://hotell.difi.no/?dataset=bodo/energy/measurement-points> a dcat:Distribution ;
+    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
+        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
+    dct:format <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/application/xml>,
+        <https://www.iana.org/assignments/media-types/application/yaml>,
+        <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod/no/2.0> ;
+    dct:title "Measurement points"@en,
+        "Measurement points"@nb ;
+    dcat:accessURL <https://hotell.difi.no/?dataset=bodo/energy/measurement-points> ;
+    dcat:downloadURL <https://hotell.difi.no/download/bodo/energy/measurement-points> .
+
+<https://hotell.difi.no/?dataset=bodo/energy/measurements> a dcat:Distribution ;
+    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
+        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
+    dct:format <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/application/xml>,
+        <https://www.iana.org/assignments/media-types/application/yaml>,
+        <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod/no/2.0> ;
+    dct:title "Measurements"@en,
+        "Measurements"@nb ;
+    dcat:accessURL <https://hotell.difi.no/?dataset=bodo/energy/measurements> ;
+    dcat:downloadURL <https://hotell.difi.no/download/bodo/energy/measurements> .
+
+<https://hotell.difi.no/?dataset=drammen/energy/location-measurement-points> a dcat:Distribution ;
+    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
+        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
+    dct:format <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/application/xml>,
+        <https://www.iana.org/assignments/media-types/application/yaml>,
+        <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod/no/2.0> ;
+    dct:title "Location measurement points"@en,
+        "Location measurement points"@nb ;
+    dcat:accessURL <https://hotell.difi.no/?dataset=drammen/energy/location-measurement-points> ;
+    dcat:downloadURL <https://hotell.difi.no/download/drammen/energy/location-measurement-points> .
+
+<https://hotell.difi.no/?dataset=drammen/energy/locations> a dcat:Distribution ;
+    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
+        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
+    dct:format <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/application/xml>,
+        <https://www.iana.org/assignments/media-types/application/yaml>,
+        <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod/no/2.0> ;
+    dct:title "Locations"@en,
+        "Locations"@nb ;
+    dcat:accessURL <https://hotell.difi.no/?dataset=drammen/energy/locations> ;
+    dcat:downloadURL <https://hotell.difi.no/download/drammen/energy/locations> .
+
+<https://hotell.difi.no/?dataset=drammen/energy/measurement-points> a dcat:Distribution ;
+    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
+        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
+    dct:format <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/application/xml>,
+        <https://www.iana.org/assignments/media-types/application/yaml>,
+        <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod/no/2.0> ;
+    dct:title "Measurement points"@en,
+        "Measurement points"@nb ;
+    dcat:accessURL <https://hotell.difi.no/?dataset=drammen/energy/measurement-points> ;
+    dcat:downloadURL <https://hotell.difi.no/download/drammen/energy/measurement-points> .
+
+<https://hotell.difi.no/?dataset=drammen/energy/measurements> a dcat:Distribution ;
+    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
+        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
+    dct:format <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/application/xml>,
+        <https://www.iana.org/assignments/media-types/application/yaml>,
+        <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod/no/2.0> ;
+    dct:title "Measurements"@en,
+        "Measurements"@nb ;
+    dcat:accessURL <https://hotell.difi.no/?dataset=drammen/energy/measurements> ;
+    dcat:downloadURL <https://hotell.difi.no/download/drammen/energy/measurements> .
+
+<https://hotell.difi.no/?dataset=stavanger/energy/location-measurement-points> a dcat:Distribution ;
+    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
+        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
+    dct:format <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/application/xml>,
+        <https://www.iana.org/assignments/media-types/application/yaml>,
+        <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod/no/2.0> ;
+    dct:title "Location measurement points"@en,
+        "Location measurement points"@nb ;
+    dcat:accessURL <https://hotell.difi.no/?dataset=stavanger/energy/location-measurement-points> ;
+    dcat:downloadURL <https://hotell.difi.no/download/stavanger/energy/location-measurement-points> .
+
+<https://hotell.difi.no/?dataset=stavanger/energy/locations> a dcat:Distribution ;
+    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
+        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
+    dct:format <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/application/xml>,
+        <https://www.iana.org/assignments/media-types/application/yaml>,
+        <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod/no/2.0> ;
+    dct:title "Locations"@en,
+        "Locations"@nb ;
+    dcat:accessURL <https://hotell.difi.no/?dataset=stavanger/energy/locations> ;
+    dcat:downloadURL <https://hotell.difi.no/download/stavanger/energy/locations> .
+
+<https://hotell.difi.no/?dataset=stavanger/energy/measurement-points> a dcat:Distribution ;
+    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
+        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
+    dct:format <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/application/xml>,
+        <https://www.iana.org/assignments/media-types/application/yaml>,
+        <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod/no/2.0> ;
+    dct:title "Measurement points"@en,
+        "Measurement points"@nb ;
+    dcat:accessURL <https://hotell.difi.no/?dataset=stavanger/energy/measurement-points> ;
+    dcat:downloadURL <https://hotell.difi.no/download/stavanger/energy/measurement-points> .
+
+<https://hotell.difi.no/?dataset=stavanger/energy/measurements> a dcat:Distribution ;
+    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
+        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
+    dct:format <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/application/xml>,
+        <https://www.iana.org/assignments/media-types/application/yaml>,
+        <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod/no/2.0> ;
+    dct:title "Measurements"@en,
+        "Measurements"@nb ;
+    dcat:accessURL <https://hotell.difi.no/?dataset=stavanger/energy/measurements> ;
+    dcat:downloadURL <https://hotell.difi.no/download/stavanger/energy/measurements> .
+
+<https://hotell.difi.no/?dataset=trondheim/energy/location-measurement-points> a dcat:Distribution ;
+    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
+        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
+    dct:format <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/application/xml>,
+        <https://www.iana.org/assignments/media-types/application/yaml>,
+        <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod/no/2.0> ;
+    dct:title "Location measurement points"@en,
+        "Location measurement points"@nb ;
+    dcat:accessURL <https://hotell.difi.no/?dataset=trondheim/energy/location-measurement-points> ;
+    dcat:downloadURL <https://hotell.difi.no/download/trondheim/energy/location-measurement-points> .
+
+<https://hotell.difi.no/?dataset=trondheim/energy/locations> a dcat:Distribution ;
+    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
+        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
+    dct:format <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/application/xml>,
+        <https://www.iana.org/assignments/media-types/application/yaml>,
+        <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod/no/2.0> ;
+    dct:title "Locations"@en,
+        "Locations"@nb ;
+    dcat:accessURL <https://hotell.difi.no/?dataset=trondheim/energy/locations> ;
+    dcat:downloadURL <https://hotell.difi.no/download/trondheim/energy/locations> .
+
+<https://hotell.difi.no/?dataset=trondheim/energy/measurement-points> a dcat:Distribution ;
+    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
+        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
+    dct:format <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/application/xml>,
+        <https://www.iana.org/assignments/media-types/application/yaml>,
+        <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod/no/2.0> ;
+    dct:title "Measurement points"@en,
+        "Measurement points"@nb ;
+    dcat:accessURL <https://hotell.difi.no/?dataset=trondheim/energy/measurement-points> ;
+    dcat:downloadURL <https://hotell.difi.no/download/trondheim/energy/measurement-points> .
+
+<https://hotell.difi.no/?dataset=trondheim/energy/measurements> a dcat:Distribution ;
+    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
+        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
+    dct:format <https://www.iana.org/assignments/media-types/application/json>,
+        <https://www.iana.org/assignments/media-types/application/xml>,
+        <https://www.iana.org/assignments/media-types/application/yaml>,
+        <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod/no/2.0> ;
+    dct:title "Measurements"@en,
+        "Measurements"@nb ;
+    dcat:accessURL <https://hotell.difi.no/?dataset=trondheim/energy/measurements> ;
+    dcat:downloadURL <https://hotell.difi.no/download/trondheim/energy/measurements> .
+
