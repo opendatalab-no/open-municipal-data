@@ -1,13 +1,390 @@
 location;municipality_code;meter_id;meter_name
-Brinken barnehage;5001;Fastkraft-timesmålt;El_Local_T01
-Brinken barnehage;5001;Trondheim-VOLL;Eklima_68860_TAM
-Lade skole;5001;Temperatur VOLL;Eklima_68860_TAM
-Lade skole;5001;Voll TAN;Eklima_68860_TAN
-Lade skole;5001;Fjernvarme;El_Local_T02
-Lade skole;5001;Fastkraft;El_Local_T04
-Lade skole;5001;Ladestasjon elmåler;El_Local_T03
-Bromstad helse og velferdssenter;5001;Vannmåler;El_Local_T07
-Bromstad helse og velferdssenter;5001;Voll TAN;Eklima_68860_TAN
-Bromstad helse og velferdssenter;5001;Fjernvarme;El_Local_T05
-Bromstad helse og velferdssenter;5001;Fastkraft-timesmålt;El_Local_T06
-Bromstad helse og velferdssenter;5001;Trondheim-VOLL;Eklima_68860_TAM
+Mørkvedbukta skole og barnehage;1804;Eklima_82290_TAM;Temp middel
+ELBIL-LADERE BODØ;1804;EID_972418013_00290;Hålogalandsgata 131
+ELBIL-LADERE BODØ;1804;EID_972418013_00315;Furumoen Sykehjem
+ELBIL-LADERE BODØ;1804;EID_972418013_00320;Mørkved Sykehjem
+ELBIL-LADERE BODØ;1804;EID_972418013_00305;Tverlandet BOS 3
+ELBIL-LADERE BODØ;1804;EID_972418013_00300;Tverlandet BOS 2
+ELBIL-LADERE BODØ;1804;EID_972418013_00295;Tverlandet BOS 1
+ELBIL-LADERE BODØ;1804;EID_972418013_00310;Vollan Sykehjem
+ELBIL-LADERE BODØ;1804;Eklima_82290_TAM;Temp middel
+Vatnlia Leirskole;1804;Eklima_82290_GD17;Graddager
+Vatnlia Leirskole;1804;Eklima_82290_TAM;Temp middel
+Vatnlia Leirskole;1804;707057500067232438;Vatnlia Leirsted Bestyrerbolig
+Vatnlia Leirskole;1804;707057500067232476;Hovedhus
+Misvær Nye Barnehage;1804;EID_972418013_00280;Fastkraft
+Misvær Nye Barnehage;1804;EID_972418013_00281/3;Varmepumpe
+Misvær Nye Barnehage;1804;Eklima_82290_TAM;Temp middel
+Kvartal 99 Bygarasje;1804;Eklima_82290_TAM;Temp middel
+Kvartal 99 Bygarasje;1804;707057500067418986;El Kv99 Bygarasje
+Vågøynes gård;1804;Eklima_82290_TAM;Temp middel
+GATEVARME BODØ;1804;EID_972418013_00060;Gatevarme Stormen Bibliotek
+GATEVARME BODØ;1804;EID_972418013_00080;Gatevarme Stormen Konserthus
+GATEVARME BODØ;1804;EID_972418013_00020;Gatevarme Rådhuset
+GATEVARME BODØ;1804;707057500089501629;Gatevarme Kv99 FV70061
+GATEVARME BODØ;1804;Eklima_82290_TAM;Temp middel
+Kvartal 99 Isbane;1804;Eklima_82290_TAM;Temp middel
+Kvartal 99 Isbane;1804;707057500067420064;Isvannsproduksjon
+Miljøhuset;1804;707057500067420965;El
+Miljøhuset;1804;Eklima_82290_TAM;Temp middel
+Rådhuset Bodø;1804;Eklima_82290_TAM;Temp middel
+Rådhuset Bodø;1804;EID_972418013_00021;Gatevarme flow
+Rådhuset Bodø;1804;EID_972418013_00023;Gatevarme Returtemperatur
+Rådhuset Bodø;1804;EID_972418013_00022;Gatevarme Turtemperatur
+Rådhuset Bodø;1804;EID_972418013_00020;Gatevarme
+Rådhuset Bodø;1804;707057500089501441-EID_972418013_00020;Fjernvarme FV70058 ex gatevarme
+Rådhuset Bodø;1804;707057500067411147;Fastkraft
+Tverlandet skole;1804;Eklima_82290_TAM;Temp middel
+Tverlandet skole;1804;EID_972418013_00002;Hovedinntak
+Tverlandet skole;1804;EID_972418013_00002-(EID_972418013_00001+EID_972418013_00003+EID_972418013_00004+EID_972418013_00005);Annet
+Tverlandet skole;1804;EID_972418013_00004;Gymsal
+Tverlandet skole;1804;EID_972418013_00003;Energisentral
+Tverlandet skole;1804;EID_972418013_00001;Varmepumper
+Tverlandet skole;1804;EID_972418013_00005;Elkjel
+Alstad Ungdomsskole;1804;Eklima_82290_GD17;Graddager
+Alstad Ungdomsskole;1804;Eklima_82290_TAM;Temp middel
+Alstad Ungdomsskole;1804;707057500067171706;Fastkraft 66939
+Tusenhjemmet;1804;707057500067064183;Fastkraft 6970631401426179
+Tusenhjemmet;1804;707057500067064190;Fastkraft 6970631401426094
+Tusenhjemmet;1804;707057500067064176;Fastkraft 6970631401302022
+Tusenhjemmet;1804;Eklima_82290_TAM;Temp middel
+Aspåsen Felleshall;1804;Eklima_82290_TAM;Temp middel
+Aspåsen Felleshall;1804;707057500067312055;Fastkraft 43890
+Aspåsen Skole;1804;707057500067407799;El modulbygg (ikke i bruk 2021)
+Aspåsen Skole;1804;Eklima_82290_TAM;Temp middel
+Aspåsen Skole;1804;707057500067086468;Elkjel 37826
+Aspåsen Skole;1804;707057500067086451;Fastkraft 37824
+Aspåsen Skole;1804;EID_972418013_00100+EID_972418013_00110+EID_972418013_00120+EID_972418013_00130+EID_972418013_00140+EID_972418013_00150+EID_972418013_00160+EID_972418013_00170+EID_972418013_00180+EID_972418013_00190+EID_972418013_00200+EID_972418013_00210+EID_972418013_00220+EID_972418013_00230+EID_972418013_00240+EID_972418013_00250;LYS Sum
+Aspåsen Skole;1804;EID_972418013_50000;Fjernvarme
+Aspåsen Skole;1804;EID_972418013_50001;Fastkraft modulbygg 67407799 (hist til 01.01.2021) 
+Aspåsen Skole;1804;707057500067040507;Fastkraft NY
+Vollsletta 10;1804;Eklima_82290_TAM;Temp middel
+Vollsletta 10;1804;707057500067399605;Fastkraft
+Vollsletta 24;1804;707057500067385264;Fastkraft 67756
+Vollsletta 24;1804;Eklima_82290_TAM;Temperatur 82290
+Vollsetta 8-10;1804;Eklima_82290_TAM;Temp middel
+Stordalen garderobe;1804;Eklima_82290_TAM;Temp middel
+Stordalen garderobe;1804;707057500067153702;Fastkraft 61291
+Stordalshallen;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Stordalshallen;1804;Eklima_82290_GD17;Graddager Graddager
+Stordalshallen;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Stordalshallen;1804;707057500067153696;Fastkraft 40562
+Bratten Mind senteret;1804;Eklima_82290_TAN;Temp MIN
+Bratten Mind senteret;1804;Eklima_82290_TAM;Temperatur 82290
+Bratten Mind senteret;1804;707057500067365433;Fastkraft 6970631401222894
+Gimle fritidslokale;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Gimle fritidslokale;1804;Eklima_82290_GD17;Graddager Graddager
+Gimle fritidslokale;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Gimle fritidslokale;1804;707057500067107941;Fastkraft 52100 (6970631401423611)
+Bodø Byggservise veksted;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Bodø Byggservise veksted;1804;Eklima_82290_GD17;Graddager Graddager
+Bodø Byggservise veksted;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Bodø Byggservise veksted;1804;707057500067111290;Fastkraft 67524
+Misvær Administrasjonsbygg;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Misvær Administrasjonsbygg;1804;Eklima_82290_GD17;Graddager Graddager
+Misvær Administrasjonsbygg;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Misvær Administrasjonsbygg;1804;707057500023752512;Fastkraft 66976
+Misvær Administrasjonsbygg;1804;707057500023752499;Fastkraft 66952 (6970631401415180)
+Speiderveien 4;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Speiderveien 4;1804;Eklima_82290_GD17;Graddager Graddager
+Speiderveien 4;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Speiderveien 4;1804;707057500067110842;Fastkraft 37818 (6970631401426681)
+Herredshuset;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Herredshuset;1804;Eklima_82290_GD17;Graddager Graddager
+Herredshuset;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Herredshuset;1804;707057500067142102;Fastkraft 37593
+Barnevernet;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Barnevernet;1804;Eklima_82290_GD17;Graddager
+Barnevernet;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Barnevernet;1804;707057500067058335;Fastkraft 62023
+Sølvsuper helse og velferdssenter;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Sølvsuper helse og velferdssenter;1804;Eklima_82290_GD17;Graddager Graddager
+Sølvsuper helse og velferdssenter;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Sølvsuper helse og velferdssenter;1804;707057500089500690;Fjernvarme FV70006
+Sølvsuper helse og velferdssenter;1804;707057500067366065;Fastkraft 61750
+Avdeling Rehab Gaml Riksvei 18;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Avdeling Rehab Gaml Riksvei 18;1804;Eklima_82290_GD17;Graddager Graddager
+Avdeling Rehab Gaml Riksvei 18;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Avdeling Rehab Gaml Riksvei 18;1804;707057500089500393;Fjernvarme FV70062 (FV45729)
+Avdeling Rehab Gaml Riksvei 18;1804;707057500067301394;Fastkraft 40397
+Avdeling Rehab Gaml Riksvei 18;1804;707057500067301400;Fastkraft 43665
+Avdeling Rehab Gaml Riksvei 18;1804;707057500067301424;Fastkraft 43695
+Avdeling Rehab Gaml Riksvei 18;1804;707057500067301417;Fastkraft 43666
+Villavekst Torvgata 16;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Villavekst Torvgata 16;1804;Eklima_82290_GD17;Graddager Graddager
+Villavekst Torvgata 16;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Villavekst Torvgata 16;1804;707057500067341253;Fastkraft 6970631401423635
+Symra dagsenter;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Symra dagsenter;1804;Eklima_82290_GD17;Graddager Graddager
+Symra dagsenter;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Symra dagsenter;1804;707057500067150534;Fastkraft 46356
+Ruspsykiatri Hålogalandsgata 131;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Ruspsykiatri Hålogalandsgata 131;1804;Eklima_82290_GD17;Graddager Graddager
+Ruspsykiatri Hålogalandsgata 131;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Ruspsykiatri Hålogalandsgata 131;1804;707057500089501154;Fjernvarme FV70014
+Ruspsykiatri Hålogalandsgata 131;1804;707057500067373094-EID_972418013_00290;Fastkraft 67381 eks elbil
+Hovdejordet sykehjem;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Hovdejordet sykehjem;1804;Eklima_82290_GD17;Graddager Graddager
+Hovdejordet sykehjem;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Hovdejordet sykehjem;1804;707057500089500331;Fjernvarme FV70079
+Hovdejordet sykehjem;1804;707057500067324584;Fastkraft 52311
+Furumoen sykehjem;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Furumoen sykehjem;1804;Eklima_82290_GD17;Graddager Graddager
+Furumoen sykehjem;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Furumoen sykehjem;1804;707057500023755254;Elkjel SK1606 (61371)
+Furumoen sykehjem;1804;707057500023755247;Fastkraft SK1558
+Vollsletta sykehjem;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Vollsletta sykehjem;1804;Eklima_82290_GD17;Graddager Graddager
+Vollsletta sykehjem;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Vollsletta sykehjem;1804;707057500067321774;Fastkraft 52388
+Vollen sykehjem;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Vollen sykehjem;1804;Eklima_82290_GD17;Graddager Graddager
+Vollen sykehjem;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Vollen sykehjem;1804;707057500067322009;Elkjel 52384
+Vollen sykehjem;1804;707057500067138051;Fastkraft 37809
+Tverlandet Bo og Servicesenter;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Tverlandet Bo og Servicesenter;1804;Eklima_82290_GD17;Graddager Graddager
+Tverlandet Bo og Servicesenter;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Tverlandet Bo og Servicesenter;1804;707057500067234302;Elkjel 65449
+Tverlandet Bo og Servicesenter;1804;707057500067234296;Fastkraft 65451
+Stadiontunet sykehjem;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Stadiontunet sykehjem;1804;Eklima_82290_GD17;Graddager Graddager
+Stadiontunet sykehjem;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Stadiontunet sykehjem;1804;707057500089500379;Fjernvarme FV70068 (FV46430)
+Stadiontunet sykehjem;1804;707057500067072317;Fastkraft 6970631405207446 (67742)
+Sentrum sykehjem;1804;Eklima_82290_GD17;Graddager Graddager
+Sentrum sykehjem;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Sentrum sykehjem;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Sentrum sykehjem;1804;707057500089501223;Fjernvarme FV70019
+Sentrum sykehjem;1804;707057500067326502;Fastkraft 52306 (6970631405207392)
+Mørkved sykehjem;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Mørkved sykehjem;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Mørkved sykehjem;1804;Eklima_82290_GD17;Graddager Graddager
+Mørkved sykehjem;1804;707057500067313755;Elkjel 46391
+Mørkved sykehjem;1804;707057500067313748;Fastkraft 46414
+Rønvik legesenter;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Rønvik legesenter;1804;Eklima_82290_GD17;Graddager Graddager
+Rønvik legesenter;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Rønvik legesenter;1804;707057500067128977;Fastkraft 52167
+Rønvik barnehage;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Rønvik barnehage;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Rønvik barnehage;1804;Eklima_82290_GD17;Graddager Graddager
+Rønvik barnehage;1804;707057500067378761;Fastkraft 67724
+Støver skole bygg 2;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Støver skole bygg 2;1804;Eklima_82290_GD17;Graddager Graddager
+Støver skole bygg 2;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Støver skole bygg 2;1804;707057500067322719;Fastkraft 39083
+Jentoftsletta barnehage;1804;707057500067340621;Fastkraft 60429
+Jentoftsletta barnehage;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Jentoftsletta barnehage;1804;Eklima_82290_GD17;Graddager Graddager
+Jentoftsletta barnehage;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Kjerringøy barnehage;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Kjerringøy barnehage;1804;Eklima_82290_GD17;Graddager Graddager
+Kjerringøy barnehage;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Kjerringøy barnehage;1804;707057500067344476;Fastkraft 61303
+Asphaugen barnehage 2;1804;EID_972418013_00040;Sol effekt
+Asphaugen barnehage 2;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Asphaugen barnehage 2;1804;Eklima_82290_GD17;Graddager Graddager
+Asphaugen barnehage 2;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Asphaugen barnehage 2;1804;EID_972418013_00041;Sol energi
+Asphaugen barnehage 2;1804;707057500067338512;Fastkraft 60443 (6970631401423765)
+Asphaugen barnehage;1804;707057500067071099;Fastkraft 43871 (6970631401423758)
+Asphaugen barnehage;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Asphaugen barnehage;1804;Eklima_82290_GD17;Graddager Graddager
+Asphaugen barnehage;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Misvær barnehage;1804;707057500023755261;Fastkraft SK1557 (6970631405626735)
+Misvær barnehage;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Misvær barnehage;1804;Eklima_82290_GD17;Graddager Graddager
+Misvær barnehage;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Engmark barnehage bygg 2;1804;707057500067338079;Fastkraft 61183
+Engmark barnehage bygg 2;1804;Eklima_82290_TAN;Temp MIN
+Engmark barnehage bygg 2;1804;Eklima_82290_GD17;Graddager
+Engmark barnehage bygg 2;1804;Eklima_82290_TAM;Temp MIDDEL
+Engmark barnehage;1804;707057500067242871;Fastkraft 43867 (6970631409831760)
+Engmark barnehage;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Engmark barnehage;1804;Eklima_82290_GD17;Graddager Graddager
+Engmark barnehage;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Messiosen barnehage;1804;707057500067203070;Fastkraft 65469
+Messiosen barnehage;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Messiosen barnehage;1804;Eklima_82290_GD17;Graddager Graddager
+Messiosen barnehage;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Mørkvedmarka barnehage;1804;Eklima_82290_TAN;Temp MIN
+Mørkvedmarka barnehage;1804;Eklima_82290_TAM;Temp middel 82290
+Mørkvedmarka barnehage;1804;Eklima_82290_GD17;Graddager 82290
+Mørkvedmarka barnehage;1804;707057500067220237;Fastkraft 52089
+Saltstraumen barnehage;1804;Eklima_82290_TAN;Temp MIN 82290
+Saltstraumen barnehage;1804;Eklima_82290_GD17;Graddager 82290
+Saltstraumen barnehage;1804;Eklima_82290_TAM;Temp MIDDEL
+Saltstraumen barnehage;1804;707057500067249221;Fastkraft 43884 (6970631409833337)
+Skivik barnehage;1804;707057500067261322;Fastkraft 60449
+Skivik barnehage;1804;Eklima_82290_TAN;Temp MIN
+Skivik barnehage;1804;Eklima_82290_GD17;Graddager
+Skivik barnehage;1804;Eklima_82290_TAM;Temp MIDDEL
+Skivik barnehage;1804;707057500067261315;Fastkraft 60431 (6970631409834181)
+Hunstad øst barnehage;1804;707057500067195542;Fastkraft 58971
+Hunstad øst barnehage;1804;Eklima_82290_TAN;Temp TAN
+Hunstad øst barnehage;1804;Eklima_82290_GD17;Graddager
+Hunstad øst barnehage;1804;Eklima_82290_TAM;Temp MIDDEL
+Maurtua barnehage;1804;707057500067242680;Fastkraft 40701 (6970631401443985)
+Maurtua barnehage;1804;Eklima_82290_TAN;Temperatur Temp MIN
+Maurtua barnehage;1804;Eklima_82290_GD17;Graddager Graddager
+Maurtua barnehage;1804;Eklima_82290_TAM;Temperatur Temp MIDDEL
+Løding barnehage;1804;Eklima_82290_TAN;Temp TAN
+Løding barnehage;1804;Eklima_82290_GD17;Graddager
+Løding barnehage;1804;Eklima_82290_TAM;Temp MIDDEL
+Løding barnehage;1804;707057500067241263;Fastkraft 62001
+Stokkvika barnehage bygg 2;1804;Eklima_82290_TAN;Temp TAN
+Stokkvika barnehage bygg 2;1804;Eklima_82290_GD17;Graddager
+Stokkvika barnehage bygg 2;1804;Eklima_82290_TAM;Temp MIDDEL
+Stokkvika barnehage bygg 2;1804;707057500067326977;Fastkraft 65406
+Stokkvika barnehage bygg 1;1804;Eklima_82290_TAN;Temp MIN
+Stokkvika barnehage bygg 1;1804;Eklima_82290_GD17;Graddager
+Stokkvika barnehage bygg 1;1804;Eklima_82290_TAM;Temp MIDDEL
+Stokkvika barnehage bygg 1;1804;707057500067181217;Fastkraft 60457
+Barnas Hus barnehage;1804;707057500067333289;Fastkraft 58106 Øvrig EL
+Barnas Hus barnehage;1804;707057500067334255;Fastkraft 52126 Ventilasjon
+Barnas Hus barnehage;1804;707057500067333296;Fastkraft 58004 Rødekors
+Barnas Hus barnehage;1804;Eklima_82290_TAN;Temp TAN
+Barnas Hus barnehage;1804;Eklima_82290_GD17;Graddager
+Barnas Hus barnehage;1804;Eklima_82290_TAM;Temp MIDDEL
+Vestbyen barnehage;1804;707057500067091677;Fastkraft 62081 (6970631401444265)
+Vestbyen barnehage;1804;Eklima_82290_TAN;Temp MIN
+Vestbyen barnehage;1804;Eklima_82290_GD17;Graddager
+Vestbyen barnehage;1804;Eklima_82290_TAM;Temp MIDDEL
+Linken barnehage;1804;707057500067116165;Fastkraft 58917
+Linken barnehage;1804;Eklima_82290_TAN;Temp TAN
+Linken barnehage;1804;Eklima_82290_GD17;Graddager
+Linken barnehage;1804;Eklima_82290_TAM;Temp MIDDEL
+Osphaugen barnehage;1804;707057500067200369;Fastkraft 62104
+Osphaugen barnehage;1804;Eklima_82290_TAN;Temp MIN
+Osphaugen barnehage;1804;Eklima_82290_GD17;Graddager
+Osphaugen barnehage;1804;Eklima_82290_TAM;Temp MIDDEL
+Skjerstad skole og opvekstsenter;1804;Eklima_82290_TAM;Temp MIDDEL
+Skjerstad skole og opvekstsenter;1804;707057500023759061;Skjerstad skole SK1568
+Skjerstad skole og opvekstsenter;1804;707057500023759597;Skjerstad oppvekstsenter 66949
+Mørkvedmarka familiesenter hus 1;1804;Eklima_82290_TAM;Temp MIDDEL
+Mørkvedmarka familiesenter hus 1;1804;707057500067220183;Fastkraft 32141
+Løding skole;1804;707057500067234128-707057500067234135;Fastkraft minus elkjel
+Løding skole;1804;Eklima_82290_GD17;Graddager
+Løding skole;1804;Eklima_82290_TAN;Temp MIN
+Løding skole;1804;Eklima_82290_TAM;Temp MIDDEL
+Løding skole;1804;707057500067234142;Fastkraft 43912
+Løding skole;1804;707057500067326168;Fastkraft 65407
+Løding skole;1804;707057500067234135;Elkjel 62028
+Løding skole;1804;707057500067234128;Fastkraft 62020
+Misvær svømmehall;1804;707057500023757661;Fastkraft 66971
+Misvær svømmehall;1804;Eklima_82290_TAN;Temperatur 82290
+Misvær svømmehall;1804;Eklima_82290_GD17;Temperatur 82290
+Misvær svømmehall;1804;Eklima_82290_TAM;Temperatur 82290
+Misvær svømmehall;1804;707057500023757661-(EID_972418013_00281/3);Fastkraft minus barnehage
+Nordstrandhallen Løpsmarka;1804;707057500067266532;Fastkraft 67198 (6970631409832835)
+Nordstrandhallen Løpsmarka;1804;Eklima_82290_TAN;Temp MIN
+Nordstrandhallen Løpsmarka;1804;Eklima_82290_GD17;Graddager
+Nordstrandhallen Løpsmarka;1804;Eklima_82290_TAM;Temp MIDDEL
+Bankgata Flerbrukshall;1804;707057500089501241;Fjernvarme FV70018
+Bankgata Flerbrukshall;1804;707057500067373971;Fastkraft 67372
+Bankgata Flerbrukshall;1804;Eklima_82290_TAN;Temp MIN
+Bankgata Flerbrukshall;1804;Eklima_82290_GD17;Graddager
+Bankgata Flerbrukshall;1804;Eklima_82290_TAM;Temp MIDDEL
+Skjerstad skole admbygg;1804;707057500023758712;Fastkraft 66917
+Skjerstad skole admbygg;1804;Eklima_82290_TAN;Temp MIN
+Skjerstad skole admbygg;1804;Eklima_82290_GD17;Graddager
+Skjerstad skole admbygg;1804;Eklima_82290_TAM;Temp MIDDEL
+Misvær skole;1804;Eklima_82290_TAM;Temp MIDDEL
+Misvær skole;1804;707057500067328377;Elkjel 66945
+Misvær skole;1804;707057500067328360;Fastkraft 66928
+Misvær skole;1804;Eklima_82290_TAN;Temp MIN
+Misvær skole;1804;Eklima_82290_GD17;Graddager
+Bodøsjøen skole;1804;Eklima_82290_GD17;Graddager
+Bodøsjøen skole;1804;Eklima_82290_TAN;Temp MIN
+Bodøsjøen skole;1804;Eklima_82290_TAM;Temp MIDDEL
+Bodøsjøen skole;1804;707057500089500454;Fjernvarme FV47592
+Bodøsjøen skole;1804;707057500067321835;Fastkraft 52317
+Løpsmark skole;1804;707057500067266525;Tunet og Berget Elkjel 32137 (6970631409832798) 
+Løpsmark skole;1804;707057500067266518;Tunet Aspen og Berget Fastkraft 38740 (6970631409832675)
+Løpsmark skole;1804;707057500067291770;Smia skoledel Fastkraft 67210 (6970631409832699)
+Løpsmark skole;1804;Eklima_82290_TAN;Temp MIN
+Løpsmark skole;1804;Eklima_82290_GD17;Graddager
+Løpsmark skole;1804;Eklima_82290_TAM;Temp MIDDEL
+Mørkvedmarka skole;1804;707057500067220190;Fastkraft 60041
+Mørkvedmarka skole;1804;Eklima_82290_TAN;Temp MIN
+Mørkvedmarka skole;1804;Eklima_82290_GD17;Graddager
+Mørkvedmarka skole;1804;Eklima_82290_TAM;Temp MIDDEL
+Hunstad ungdomsskole;1804;707057500067193128;Elkjel 43874
+Hunstad ungdomsskole;1804;707057500067193135;Fastkraft 43913
+Hunstad ungdomsskole;1804;Eklima_82290_TAN;Temp MIN
+Hunstad ungdomsskole;1804;Eklima_82290_GD17;Graddager
+Hunstad ungdomsskole;1804;Eklima_82290_TAM;Temp MIDDEL
+Kjerringøy skole;1804;707057500067283188;Fastkraft 61319
+Kjerringøy skole;1804;Eklima_82290_TAN;Temp MIN
+Kjerringøy skole;1804;Eklima_82290_GD17;Graddager
+Kjerringøy skole;1804;Eklima_82290_TAM;Temp MIDDEL
+Helligvær Skole;1804;Eklima_82290_GD17;Graddager
+Helligvær Skole;1804;Eklima_82290_TAN;Temp MIN
+Helligvær Skole;1804;Eklima_82290_TAM;Temp MIDDEL
+Helligvær Skole;1804;707057500067279112;Fastkraft 67209
+Saltvern skole;1804;707057500089501363;Fjernvarme FV70032 (F,G,H,I,J)
+Saltvern skole;1804;707057500089501330;Fjernvarme FV70028 (D og E)
+Saltvern skole;1804;707057500067142089;Fastkraft 62078 H
+Saltvern skole;1804;707057500067142096;Fastkraft 34530 J
+Saltvern skole;1804;707057500067142072;Fastkraft 32134 A/B
+Saltvern skole;1804;707057500067142065;Elkjel 52263 (Hist) Utgått
+Saltvern skole;1804;Eklima_82290_TAN;Temp MIN
+Saltvern skole;1804;Eklima_82290_GD17;Graddager
+Saltvern skole;1804;Eklima_82290_TAM;Temp MIDDEL
+Bankgata ungdomsskole;1804;Eklima_82290_GD17;Graddager
+Bankgata ungdomsskole;1804;Eklima_82290_TAN;Temp MIN
+Bankgata ungdomsskole;1804;Eklima_82290_TAM;Temp MIDDEL
+Bankgata ungdomsskole;1804;707057500067107996;Elkjel 61296
+Bankgata ungdomsskole;1804;707057500089501230;Fjernvarme FV70021
+Bankgata ungdomsskole;1804;707057500067108009;Fastkraft 61300
+Saltstraumen skole;1804;707057500067248392;Fastkraft 37819 (6970631401411199)
+Saltstraumen skole;1804;707057500067248385;Elkjel 37823 (6970631401411281)
+Saltstraumen skole;1804;Eklima_82290_TAN;Temp MIN
+Saltstraumen skole;1804;Eklima_82290_GD17;Graddager
+Saltstraumen skole;1804;Eklima_82290_TAM;Temp MIDDEL
+Støver skole;1804;707057500067225706;Fastkraft 58957
+Støver skole;1804;Eklima_82290_TAN;Temp MIN
+Støver skole;1804;Eklima_82290_GD17;Graddager
+Støver skole;1804;Eklima_82290_TAM;Temp MIDDEL
+Alstad barneskole;1804;Eklima_82290_TAN;Temp MIN
+Alstad barneskole;1804;Eklima_82290_GD17;Graddager
+Alstad barneskole;1804;Eklima_82290_TAM;Temp MIDDEL
+Alstad barneskole;1804;707057500067171683;Fastkraft 37842
+Alstad barneskole;1804;707057500067171645;Fastkraft 60456
+Alstad barneskole;1804;707057500067171690;Fastkraft 45105
+Alstad barneskole;1804;707057500067290445;Fastkraft 40712
+Østbyen skole og oppvekstsenter;1804;707057500067083726;Elkjel 66922
+Østbyen skole og oppvekstsenter;1804;707057500067083719;Fastkraft 66970
+Østbyen skole og oppvekstsenter;1804;Eklima_82290_TAN;Temp MIN
+Østbyen skole og oppvekstsenter;1804;Eklima_82290_GD17;Graddager
+Østbyen skole og oppvekstsenter;1804;Eklima_82290_TAM;Temp MIDDEL
+Skaug skole og oppvekstsenter;1804;707057500067275077;Fastkraft 60455
+Skaug skole og oppvekstsenter;1804;707057500067275084;Ventilasjon skole målernr. 33052 6970631409832941
+Skaug skole og oppvekstsenter;1804;Eklima_82290_TAN;Temp MIN
+Skaug skole og oppvekstsenter;1804;Eklima_82290_GD17;Graddager
+Skaug skole og oppvekstsenter;1804;Eklima_82290_TAM;Temp MIDDEL
+Hunstad barneskole;1804;Eklima_82290_GD17;Graddager
+Hunstad barneskole;1804;Eklima_82290_TAN;Temp MIN
+Hunstad barneskole;1804;Eklima_82290_TAM;Temp MIDDEL
+Hunstad barneskole;1804;707057500067193159;Fastkraft 37798
+Rønvik skole;1804;707057500067118039;El. Skolebygg 7359992891276010
+Rønvik skole;1804;707057500067117988;El.SFO, 62002
+Rønvik skole;1804;707057500067332589;El. Skolebygg 
+Rønvik skole;1804;707057500067332565;El. Idrettsbygg, 52097
+Rønvik skole;1804;Eklima_82290_TAN;Temp MIN
+Rønvik skole;1804;Eklima_82290_GD17;Graddager
+Rønvik skole;1804;Eklima_82290_TAM;Temp MIDDEL
+Landegode skole;1804;707057500067292517;Fastkraft 40740
+Landegode skole;1804;Eklima_82290_TAN;Temp MIN
+Landegode skole;1804;Eklima_82290_GD17;Graddager
+Landegode skole;1804;Eklima_82290_TAM;Temp MIDDEL
+Grønnåsen skole;1804;Eklima_82290_GD17;Graddager
+Grønnåsen skole;1804;Eklima_82290_TAN;Temp MIN
+Grønnåsen skole;1804;Eklima_82290_TAM;Temp MIDDEL
+Grønnåsen skole;1804;707057500067165941;Fastkraft 38512
+Tverlandet basseng med utleielokaler;1804;707057500067242581;Fastkraft 37829 (6970631409832637)
+Tverlandet basseng med utleielokaler;1804;Eklima_82290_TAN;Temp MIN
+Tverlandet basseng med utleielokaler;1804;Eklima_82290_GD17;Graddager
+Tverlandet basseng med utleielokaler;1804;Eklima_82290_TAM;Temp MIDDEL
+Tverlandet basseng med utleielokaler;1804;Eklima_82290_TAM;Temp MIDDEL

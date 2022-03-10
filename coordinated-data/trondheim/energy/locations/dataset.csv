@@ -1,4 +1,4 @@
 location;municipality_code;location_type;building_type;address;latitude;longitude
-N.N. barnehage;5001;Bygning;Barnehage;NA;63.42519029762665;10.410432728286208
-N.N. skole;5001;Bygning;Skole;NA;63.42148668960351;10.396670654948329
-N.N. senter;5001;Bygning;Helsebygg;NA;63.43172968495979;10.396202842852208
+Brinken barnehage;5001;Bygning;Barnehage;Tonstadbrinken 253B;63.3652853;10.3895167
+Lade skole;5001;Bygning;Skole;Ladehammerveien 45;63.447243;10.436338
+Bromstad helse og velferdssenter;5001;Bygning;Helsebygg;Bromstadekra 16;63.4279986;10.4557258
