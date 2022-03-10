@@ -28,7 +28,7 @@ A description of each dataset with their attributes are given below.
 | meter_id | Unique id for the measurement point. Examples: EID_972418013_00290, Eklima_82290_TAM |
 | meter_type | Description of what type of measurement point this is. Examples are Fastkraft, Temperatur, Graddager, Varmepumpe |
 | unit | The unit for the measurement, e.g. kWh, °C |
-| meter_level | Usually one of the following values: Consumption meter, Other meter |
+| meter_level | Usually one of the following values: Forbruksmåler (Consumption meter), Annen måler (Other meter) |
  
 ## LocationMeasurementPoint
 | Attribute | Description  |
