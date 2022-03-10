@@ -1,4 +1,4 @@
-# Samordnede energidatasett for kommunene
+# Samordnede energidatasett for kommunene [English](README_en.md)
 
 Datasettene i denne katalogen er samordnet basert på kiledata fra kommunene.
 

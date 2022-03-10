@@ -1,6 +1,4 @@
-# Coordinated energy datasets for municipalities
-
-[Norwegian](README_no.md)
+# Coordinated energy datasets for municipalities [Norwegian](README_no.md)
 
 The datasets in this directory are coordinated based on data sources from the municipalities.
 
