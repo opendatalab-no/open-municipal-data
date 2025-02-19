@@ -2,6 +2,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ns1: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.com/kommunedata/energi> a dcat:Catalog ;
     dct:description "Datasets from municipalities in the same format. From the SamÅpne-project. Launched for Open data challenge 2022."@en,
@@ -74,11 +75,11 @@ https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data
             ns1:hasEmail <mailto:erlend.stav@sintef.no> ;
             ns1:hasOrganizationName "Erlend Stav"@nb ;
             ns1:hasURL <https://www.sintef.no/alle-ansatte/ansatt/erlend.stav/> ] ;
-    dcat:distribution <https://hotell.difi.no/?dataset=bodo/energy/location-measurement-points>,
-        <https://hotell.difi.no/?dataset=bodo/energy/locations>,
-        <https://hotell.difi.no/?dataset=bodo/energy/measurement-points>,
-        <https://hotell.difi.no/?dataset=bodo/energy/measurements> ;
-    dcat:keyword "energimåling"@nb ;
+    dcat:distribution <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/bodo/energy/location-measurement-points/dataset.csv>,
+        <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/bodo/energy/locations/dataset.csv>,
+        <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/bodo/energy/measurement-points/dataset.csv>,
+        <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/bodo/energy/measurements/dataset.csv> ;
+    dcat:keyword "datahotell"@nb ;
     dcat:landingPage <https://github.com/opendatalab-no/open-municipal-data> ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENER>,
         <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
@@ -122,11 +123,11 @@ https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data
             ns1:hasEmail <mailto:erlend.stav@sintef.no> ;
             ns1:hasOrganizationName "Erlend Stav"@nb ;
             ns1:hasURL <https://www.sintef.no/alle-ansatte/ansatt/erlend.stav/> ] ;
-    dcat:distribution <https://hotell.difi.no/?dataset=drammen/energy/location-measurement-points>,
-        <https://hotell.difi.no/?dataset=drammen/energy/locations>,
-        <https://hotell.difi.no/?dataset=drammen/energy/measurement-points>,
-        <https://hotell.difi.no/?dataset=drammen/energy/measurements> ;
-    dcat:keyword "energimåling"@nb ;
+    dcat:distribution <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/drammen/energy/location-measurement-points/dataset.csv>,
+        <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/drammen/energy/locations/dataset.csv>,
+        <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/drammen/energy/measurement-points/dataset.csv>,
+        <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/drammen/energy/measurements/dataset.csv> ;
+    dcat:keyword "datahotell"@nb ;
     dcat:landingPage <https://github.com/opendatalab-no/open-municipal-data> ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENER>,
         <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
@@ -170,11 +171,11 @@ https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data
             ns1:hasEmail <mailto:erlend.stav@sintef.no> ;
             ns1:hasOrganizationName "Erlend Stav"@nb ;
             ns1:hasURL <https://www.sintef.no/alle-ansatte/ansatt/erlend.stav/> ] ;
-    dcat:distribution <https://hotell.difi.no/?dataset=stavanger/energy/location-measurement-points>,
-        <https://hotell.difi.no/?dataset=stavanger/energy/locations>,
-        <https://hotell.difi.no/?dataset=stavanger/energy/measurement-points>,
-        <https://hotell.difi.no/?dataset=stavanger/energy/measurements> ;
-    dcat:keyword "energimåling"@nb ;
+    dcat:distribution <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/stavanger/energy/location-measurement-points/dataset.csv>,
+        <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/stavanger/energy/locations/dataset.csv>,
+        <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/stavanger/energy/measurement-points/dataset.csv>,
+        <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/stavanger/energy/measurements/dataset.csv> ;
+    dcat:keyword "datahotell"@nb ;
     dcat:landingPage <https://github.com/opendatalab-no/open-municipal-data> ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENER>,
         <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
@@ -218,220 +219,140 @@ https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data
             ns1:hasEmail <mailto:erlend.stav@sintef.no> ;
             ns1:hasOrganizationName "Erlend Stav"@nb ;
             ns1:hasURL <https://www.sintef.no/alle-ansatte/ansatt/erlend.stav/> ] ;
-    dcat:distribution <https://hotell.difi.no/?dataset=trondheim/energy/location-measurement-points>,
-        <https://hotell.difi.no/?dataset=trondheim/energy/locations>,
-        <https://hotell.difi.no/?dataset=trondheim/energy/measurement-points>,
-        <https://hotell.difi.no/?dataset=trondheim/energy/measurements> ;
-    dcat:keyword "energimåling"@nb ;
+    dcat:distribution <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/trondheim/energy/location-measurement-points/dataset.csv>,
+        <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/trondheim/energy/locations/dataset.csv>,
+        <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/trondheim/energy/measurement-points/dataset.csv>,
+        <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/trondheim/energy/measurements/dataset.csv> ;
+    dcat:keyword "datahotell"@nb ;
     dcat:landingPage <https://github.com/opendatalab-no/open-municipal-data> ;
     dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENER>,
         <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
 
-<https://hotell.difi.no/?dataset=bodo/energy/location-measurement-points> a dcat:Distribution ;
-    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
-        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
-    dct:format <https://www.iana.org/assignments/media-types/application/json>,
-        <https://www.iana.org/assignments/media-types/application/xml>,
-        <https://www.iana.org/assignments/media-types/application/yaml>,
-        <https://www.iana.org/assignments/media-types/text/csv> ;
-    dct:license <https://data.norge.no/nlod/no/2.0> ;
+<https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/bodo/energy/location-measurement-points/dataset.csv> a dcat:Distribution ;
+    dct:format <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod> ;
+    dct:modified "2022-03-10"^^xsd:date ;
     dct:title "Location measurement points"@en,
         "Location measurement points"@nb ;
-    dcat:accessURL <https://hotell.difi.no/?dataset=bodo/energy/location-measurement-points> ;
-    dcat:downloadURL <https://hotell.difi.no/download/bodo/energy/location-measurement-points> .
+    dcat:accessURL <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/bodo/energy/location-measurement-points/dataset.csv> .
 
-<https://hotell.difi.no/?dataset=bodo/energy/locations> a dcat:Distribution ;
-    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
-        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
-    dct:format <https://www.iana.org/assignments/media-types/application/json>,
-        <https://www.iana.org/assignments/media-types/application/xml>,
-        <https://www.iana.org/assignments/media-types/application/yaml>,
-        <https://www.iana.org/assignments/media-types/text/csv> ;
-    dct:license <https://data.norge.no/nlod/no/2.0> ;
+<https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/bodo/energy/locations/dataset.csv> a dcat:Distribution ;
+    dct:format <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod> ;
+    dct:modified "2022-03-10"^^xsd:date ;
     dct:title "Locations"@en,
         "Locations"@nb ;
-    dcat:accessURL <https://hotell.difi.no/?dataset=bodo/energy/locations> ;
-    dcat:downloadURL <https://hotell.difi.no/download/bodo/energy/locations> .
+    dcat:accessURL <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/bodo/energy/locations/dataset.csv> .
 
-<https://hotell.difi.no/?dataset=bodo/energy/measurement-points> a dcat:Distribution ;
-    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
-        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
-    dct:format <https://www.iana.org/assignments/media-types/application/json>,
-        <https://www.iana.org/assignments/media-types/application/xml>,
-        <https://www.iana.org/assignments/media-types/application/yaml>,
-        <https://www.iana.org/assignments/media-types/text/csv> ;
-    dct:license <https://data.norge.no/nlod/no/2.0> ;
+<https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/bodo/energy/measurement-points/dataset.csv> a dcat:Distribution ;
+    dct:format <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod> ;
+    dct:modified "2022-03-10"^^xsd:date ;
     dct:title "Measurement points"@en,
         "Measurement points"@nb ;
-    dcat:accessURL <https://hotell.difi.no/?dataset=bodo/energy/measurement-points> ;
-    dcat:downloadURL <https://hotell.difi.no/download/bodo/energy/measurement-points> .
+    dcat:accessURL <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/bodo/energy/measurement-points/dataset.csv> .
 
-<https://hotell.difi.no/?dataset=bodo/energy/measurements> a dcat:Distribution ;
-    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
-        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
-    dct:format <https://www.iana.org/assignments/media-types/application/json>,
-        <https://www.iana.org/assignments/media-types/application/xml>,
-        <https://www.iana.org/assignments/media-types/application/yaml>,
-        <https://www.iana.org/assignments/media-types/text/csv> ;
-    dct:license <https://data.norge.no/nlod/no/2.0> ;
+<https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/bodo/energy/measurements/dataset.csv> a dcat:Distribution ;
+    dct:format <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod> ;
+    dct:modified "2022-03-10"^^xsd:date ;
     dct:title "Measurements"@en,
         "Measurements"@nb ;
-    dcat:accessURL <https://hotell.difi.no/?dataset=bodo/energy/measurements> ;
-    dcat:downloadURL <https://hotell.difi.no/download/bodo/energy/measurements> .
+    dcat:accessURL <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/bodo/energy/measurements/dataset.csv> .
 
-<https://hotell.difi.no/?dataset=drammen/energy/location-measurement-points> a dcat:Distribution ;
-    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
-        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
-    dct:format <https://www.iana.org/assignments/media-types/application/json>,
-        <https://www.iana.org/assignments/media-types/application/xml>,
-        <https://www.iana.org/assignments/media-types/application/yaml>,
-        <https://www.iana.org/assignments/media-types/text/csv> ;
-    dct:license <https://data.norge.no/nlod/no/2.0> ;
+<https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/drammen/energy/location-measurement-points/dataset.csv> a dcat:Distribution ;
+    dct:format <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod> ;
+    dct:modified "2022-03-10"^^xsd:date ;
     dct:title "Location measurement points"@en,
         "Location measurement points"@nb ;
-    dcat:accessURL <https://hotell.difi.no/?dataset=drammen/energy/location-measurement-points> ;
-    dcat:downloadURL <https://hotell.difi.no/download/drammen/energy/location-measurement-points> .
+    dcat:accessURL <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/drammen/energy/location-measurement-points/dataset.csv> .
 
-<https://hotell.difi.no/?dataset=drammen/energy/locations> a dcat:Distribution ;
-    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
-        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
-    dct:format <https://www.iana.org/assignments/media-types/application/json>,
-        <https://www.iana.org/assignments/media-types/application/xml>,
-        <https://www.iana.org/assignments/media-types/application/yaml>,
-        <https://www.iana.org/assignments/media-types/text/csv> ;
-    dct:license <https://data.norge.no/nlod/no/2.0> ;
+<https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/drammen/energy/locations/dataset.csv> a dcat:Distribution ;
+    dct:format <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod> ;
+    dct:modified "2022-03-10"^^xsd:date ;
     dct:title "Locations"@en,
         "Locations"@nb ;
-    dcat:accessURL <https://hotell.difi.no/?dataset=drammen/energy/locations> ;
-    dcat:downloadURL <https://hotell.difi.no/download/drammen/energy/locations> .
+    dcat:accessURL <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/drammen/energy/locations/dataset.csv> .
 
-<https://hotell.difi.no/?dataset=drammen/energy/measurement-points> a dcat:Distribution ;
-    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
-        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
-    dct:format <https://www.iana.org/assignments/media-types/application/json>,
-        <https://www.iana.org/assignments/media-types/application/xml>,
-        <https://www.iana.org/assignments/media-types/application/yaml>,
-        <https://www.iana.org/assignments/media-types/text/csv> ;
-    dct:license <https://data.norge.no/nlod/no/2.0> ;
+<https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/drammen/energy/measurement-points/dataset.csv> a dcat:Distribution ;
+    dct:format <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod> ;
+    dct:modified "2022-03-10"^^xsd:date ;
     dct:title "Measurement points"@en,
         "Measurement points"@nb ;
-    dcat:accessURL <https://hotell.difi.no/?dataset=drammen/energy/measurement-points> ;
-    dcat:downloadURL <https://hotell.difi.no/download/drammen/energy/measurement-points> .
+    dcat:accessURL <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/drammen/energy/measurement-points/dataset.csv> .
 
-<https://hotell.difi.no/?dataset=drammen/energy/measurements> a dcat:Distribution ;
-    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
-        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
-    dct:format <https://www.iana.org/assignments/media-types/application/json>,
-        <https://www.iana.org/assignments/media-types/application/xml>,
-        <https://www.iana.org/assignments/media-types/application/yaml>,
-        <https://www.iana.org/assignments/media-types/text/csv> ;
-    dct:license <https://data.norge.no/nlod/no/2.0> ;
+<https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/drammen/energy/measurements/dataset.csv> a dcat:Distribution ;
+    dct:format <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod> ;
+    dct:modified "2022-03-10"^^xsd:date ;
     dct:title "Measurements"@en,
         "Measurements"@nb ;
-    dcat:accessURL <https://hotell.difi.no/?dataset=drammen/energy/measurements> ;
-    dcat:downloadURL <https://hotell.difi.no/download/drammen/energy/measurements> .
+    dcat:accessURL <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/drammen/energy/measurements/dataset.csv> .
 
-<https://hotell.difi.no/?dataset=stavanger/energy/location-measurement-points> a dcat:Distribution ;
-    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
-        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
-    dct:format <https://www.iana.org/assignments/media-types/application/json>,
-        <https://www.iana.org/assignments/media-types/application/xml>,
-        <https://www.iana.org/assignments/media-types/application/yaml>,
-        <https://www.iana.org/assignments/media-types/text/csv> ;
-    dct:license <https://data.norge.no/nlod/no/2.0> ;
+<https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/stavanger/energy/location-measurement-points/dataset.csv> a dcat:Distribution ;
+    dct:format <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod> ;
+    dct:modified "2022-03-10"^^xsd:date ;
     dct:title "Location measurement points"@en,
         "Location measurement points"@nb ;
-    dcat:accessURL <https://hotell.difi.no/?dataset=stavanger/energy/location-measurement-points> ;
-    dcat:downloadURL <https://hotell.difi.no/download/stavanger/energy/location-measurement-points> .
+    dcat:accessURL <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/stavanger/energy/location-measurement-points/dataset.csv> .
 
-<https://hotell.difi.no/?dataset=stavanger/energy/locations> a dcat:Distribution ;
-    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
-        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
-    dct:format <https://www.iana.org/assignments/media-types/application/json>,
-        <https://www.iana.org/assignments/media-types/application/xml>,
-        <https://www.iana.org/assignments/media-types/application/yaml>,
-        <https://www.iana.org/assignments/media-types/text/csv> ;
-    dct:license <https://data.norge.no/nlod/no/2.0> ;
+<https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/stavanger/energy/locations/dataset.csv> a dcat:Distribution ;
+    dct:format <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod> ;
+    dct:modified "2022-03-10"^^xsd:date ;
     dct:title "Locations"@en,
         "Locations"@nb ;
-    dcat:accessURL <https://hotell.difi.no/?dataset=stavanger/energy/locations> ;
-    dcat:downloadURL <https://hotell.difi.no/download/stavanger/energy/locations> .
+    dcat:accessURL <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/stavanger/energy/locations/dataset.csv> .
 
-<https://hotell.difi.no/?dataset=stavanger/energy/measurement-points> a dcat:Distribution ;
-    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
-        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
-    dct:format <https://www.iana.org/assignments/media-types/application/json>,
-        <https://www.iana.org/assignments/media-types/application/xml>,
-        <https://www.iana.org/assignments/media-types/application/yaml>,
-        <https://www.iana.org/assignments/media-types/text/csv> ;
-    dct:license <https://data.norge.no/nlod/no/2.0> ;
+<https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/stavanger/energy/measurement-points/dataset.csv> a dcat:Distribution ;
+    dct:format <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod> ;
+    dct:modified "2022-03-10"^^xsd:date ;
     dct:title "Measurement points"@en,
         "Measurement points"@nb ;
-    dcat:accessURL <https://hotell.difi.no/?dataset=stavanger/energy/measurement-points> ;
-    dcat:downloadURL <https://hotell.difi.no/download/stavanger/energy/measurement-points> .
+    dcat:accessURL <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/stavanger/energy/measurement-points/dataset.csv> .
 
-<https://hotell.difi.no/?dataset=stavanger/energy/measurements> a dcat:Distribution ;
-    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
-        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
-    dct:format <https://www.iana.org/assignments/media-types/application/json>,
-        <https://www.iana.org/assignments/media-types/application/xml>,
-        <https://www.iana.org/assignments/media-types/application/yaml>,
-        <https://www.iana.org/assignments/media-types/text/csv> ;
-    dct:license <https://data.norge.no/nlod/no/2.0> ;
+<https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/stavanger/energy/measurements/dataset.csv> a dcat:Distribution ;
+    dct:format <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod> ;
+    dct:modified "2022-03-10"^^xsd:date ;
     dct:title "Measurements"@en,
         "Measurements"@nb ;
-    dcat:accessURL <https://hotell.difi.no/?dataset=stavanger/energy/measurements> ;
-    dcat:downloadURL <https://hotell.difi.no/download/stavanger/energy/measurements> .
+    dcat:accessURL <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/stavanger/energy/measurements/dataset.csv> .
 
-<https://hotell.difi.no/?dataset=trondheim/energy/location-measurement-points> a dcat:Distribution ;
-    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
-        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
-    dct:format <https://www.iana.org/assignments/media-types/application/json>,
-        <https://www.iana.org/assignments/media-types/application/xml>,
-        <https://www.iana.org/assignments/media-types/application/yaml>,
-        <https://www.iana.org/assignments/media-types/text/csv> ;
-    dct:license <https://data.norge.no/nlod/no/2.0> ;
+<https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/trondheim/energy/location-measurement-points/dataset.csv> a dcat:Distribution ;
+    dct:format <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod> ;
+    dct:modified "2022-03-10"^^xsd:date ;
     dct:title "Location measurement points"@en,
         "Location measurement points"@nb ;
-    dcat:accessURL <https://hotell.difi.no/?dataset=trondheim/energy/location-measurement-points> ;
-    dcat:downloadURL <https://hotell.difi.no/download/trondheim/energy/location-measurement-points> .
+    dcat:accessURL <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/trondheim/energy/location-measurement-points/dataset.csv> .
 
-<https://hotell.difi.no/?dataset=trondheim/energy/locations> a dcat:Distribution ;
-    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
-        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
-    dct:format <https://www.iana.org/assignments/media-types/application/json>,
-        <https://www.iana.org/assignments/media-types/application/xml>,
-        <https://www.iana.org/assignments/media-types/application/yaml>,
-        <https://www.iana.org/assignments/media-types/text/csv> ;
-    dct:license <https://data.norge.no/nlod/no/2.0> ;
+<https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/trondheim/energy/locations/dataset.csv> a dcat:Distribution ;
+    dct:format <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod> ;
+    dct:modified "2022-03-10"^^xsd:date ;
     dct:title "Locations"@en,
         "Locations"@nb ;
-    dcat:accessURL <https://hotell.difi.no/?dataset=trondheim/energy/locations> ;
-    dcat:downloadURL <https://hotell.difi.no/download/trondheim/energy/locations> .
+    dcat:accessURL <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/trondheim/energy/locations/dataset.csv> .
 
-<https://hotell.difi.no/?dataset=trondheim/energy/measurement-points> a dcat:Distribution ;
-    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
-        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
-    dct:format <https://www.iana.org/assignments/media-types/application/json>,
-        <https://www.iana.org/assignments/media-types/application/xml>,
-        <https://www.iana.org/assignments/media-types/application/yaml>,
-        <https://www.iana.org/assignments/media-types/text/csv> ;
-    dct:license <https://data.norge.no/nlod/no/2.0> ;
+<https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/trondheim/energy/measurement-points/dataset.csv> a dcat:Distribution ;
+    dct:format <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod> ;
+    dct:modified "2022-03-10"^^xsd:date ;
     dct:title "Measurement points"@en,
         "Measurement points"@nb ;
-    dcat:accessURL <https://hotell.difi.no/?dataset=trondheim/energy/measurement-points> ;
-    dcat:downloadURL <https://hotell.difi.no/download/trondheim/energy/measurement-points> .
+    dcat:accessURL <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/trondheim/energy/measurement-points/dataset.csv> .
 
-<https://hotell.difi.no/?dataset=trondheim/energy/measurements> a dcat:Distribution ;
-    dct:description "API supporting JSON, XML, CSV and YAML. Complete download as CSV"@en,
-        "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV"@nb ;
-    dct:format <https://www.iana.org/assignments/media-types/application/json>,
-        <https://www.iana.org/assignments/media-types/application/xml>,
-        <https://www.iana.org/assignments/media-types/application/yaml>,
-        <https://www.iana.org/assignments/media-types/text/csv> ;
-    dct:license <https://data.norge.no/nlod/no/2.0> ;
+<https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/trondheim/energy/measurements/dataset.csv> a dcat:Distribution ;
+    dct:format <https://www.iana.org/assignments/media-types/text/csv> ;
+    dct:license <https://data.norge.no/nlod> ;
+    dct:modified "2022-03-10"^^xsd:date ;
     dct:title "Measurements"@en,
         "Measurements"@nb ;
-    dcat:accessURL <https://hotell.difi.no/?dataset=trondheim/energy/measurements> ;
-    dcat:downloadURL <https://hotell.difi.no/download/trondheim/energy/measurements> .
+    dcat:accessURL <https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/trondheim/energy/measurements/dataset.csv> .
 

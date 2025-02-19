@@ -37,6 +37,8 @@ for (municipalityName, municipalityShortname, orgnr) in municipalities:
     dctIdentifier = "https://example.com/kommunedata/energi/" + municipalityShortname
     dataset.identifier = dctIdentifier
     dataset.dct_identifier = dctIdentifier
+    # modified is not supported in datacatalogtordf yet. https://github.com/Informasjonsforvaltning/datacatalogtordf/issues/90
+    # dataset.modified = "2022-03-10"
     agent = Agent()
     agent.identifier = "https://data.brreg.no/enhetsregisteret/api/enheter/" + orgnr
     agent.name = {
@@ -88,32 +90,25 @@ https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data
         "http://publications.europa.eu/resource/authority/data-theme/ENER", 
         "http://publications.europa.eu/resource/authority/data-theme/GOVE"
         ]
-    dataset.keyword = {"nb": "energimåling"}
+    dataset.keyword = {"nb": "energimåling", "nb": "datahotell"}
     dataset.landing_page = ["https://github.com/opendatalab-no/open-municipal-data"]
 
     # Create distributions
     for (datasetId, datasetName) in datahotelDatasets:
         dist = Distribution()
         datasetHotelId = municipalityShortname + "/energy/" + datasetId
-        accessUrl = "https://hotell.difi.no/?dataset=" + datasetHotelId
+        accessUrl = "https://github.com/opendatalab-no/open-municipal-data/blob/main/coordinated-data/" + datasetHotelId + "/dataset.csv"
         dist.identifier = accessUrl
         dist.access_URL = accessUrl
-        dist.download_URL = "https://hotell.difi.no/download/" + datasetHotelId
         dist.title = {
             "nb": datasetName,
             "en": datasetName
         }
-        dist.description = {
-            "nb": "API i formatene JSON, XML, CSV og YAML. Komplett nedlasting som CSV",
-            "en": "API supporting JSON, XML, CSV and YAML. Complete download as CSV"
-        }
         dist.formats = [
             "https://www.iana.org/assignments/media-types/text/csv", 
-            "https://www.iana.org/assignments/media-types/application/xml",
-            "https://www.iana.org/assignments/media-types/application/yaml",
-            "https://www.iana.org/assignments/media-types/application/json"
         ]
-        dist.license = "https://data.norge.no/nlod/no/2.0"
+        dist.license = "https://data.norge.no/nlod"
+        dist.modification_date = "2022-03-10"
         dataset.distributions.append(dist)
 
     # Add dataset to catalog:
